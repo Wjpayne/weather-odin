@@ -1,14 +1,18 @@
 {
-  "name": "weather-odin",
+  "name": "weather-app-odin",
+  "homepage": "https://Wjpayne.github.io/weather-app-odin/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.2.4"
   }
 }
