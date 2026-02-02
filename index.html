@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <title>weather-app-odin</title>
+    <script type="module" crossorigin src="/weather-app-odin/assets/index-RCdiJlkp.js"></script>
+    <link rel="stylesheet" crossorigin href="/weather-app-odin/assets/index-B1_T-MMT.css">
+  </head>
+  <body>
+    <main id="app">
+      <section class="form-section">
+        <form id="user-form">
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Enter city name"
+            required
+          />
+          <button type="submit" id="submit-button">Get Weather</button>
+        </form>
+      </section>
+      <section class="weather-display">
+        <div id="current-weather" class="weather-section">
+          <h2>Current Weather</h2>
+          <div id="current-weather-content">
+            <div id="current-icon"></div>
+            <ul id="current-weather-list">
+              <li id="location"></li>
+              <li id="date"></li>
+              <li id="hi-low"></li>
+              <li id="temperature"></li>
+              <li id="conditions"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="forecast-section">
+        <h2>7-Day Forecast</h2>
+        <div id="forecast-cards" class="forecast-cards"></div>
+      </section>
+    </main>
+  </body>
+</html>
+
