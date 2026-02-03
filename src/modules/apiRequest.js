@@ -7,6 +7,7 @@ const apiRequest = async (location) => {
   );
 
   if (!response.ok) {
+    alert("Weather request failed or invalid location. Please try again.");
     throw new Error("Weather request failed");
   }
 
