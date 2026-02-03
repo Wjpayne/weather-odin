@@ -2,7 +2,7 @@ import apiRequest from "./apiRequest";
 
 const displayInfo = async (city) => {
   const data = await apiRequest(city);
-  console.log("RESOLVED:", data.resolvedAddress);
+  
 
   // ---------- CURRENT WEATHER ----------
 

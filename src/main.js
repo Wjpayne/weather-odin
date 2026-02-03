@@ -10,6 +10,7 @@ form.addEventListener("submit", (e) => {
   if (!city) return;
   displayInfo(city);
   form.reset();
+  cityInput.blur();
 });
 
 loadCurrentLocationWeather();
